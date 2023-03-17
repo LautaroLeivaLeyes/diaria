@@ -1,0 +1,25 @@
+div {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 158, 158);
+}
+section {
+  display: flex;
+  width: 600px;
+  height: 430px;
+  margin-left: 28%;
+}
+svg {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  height: 200px;
+}
+section svg:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
